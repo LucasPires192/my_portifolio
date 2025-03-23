@@ -56,7 +56,6 @@ header div a{
 .menu{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 2rem;
 }
 
 .menu > ul{
