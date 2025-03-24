@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     /* --text: #080708;
     --background: #2A2C2E;
@@ -67,7 +69,6 @@ header{
     right: 0;
     background-color: var(--header);
     border-radius: 5px;
-    transition: 6s;
 }
 
 #menu.active #menu-list{
@@ -171,8 +172,10 @@ section > img{
     padding: 0.5rem 1rem;
     background-color: var(--border);
     border-radius: 5px;
+    border: none;
     color: var(--primary);
     align-self: flex-end;
+    box-shadow: none;
 }
 
 .box-text button:hover{
@@ -200,6 +203,57 @@ section > img{
     cursor: pointer;
 }
 
+footer{
+    position: absolute;
+    bottom: -100;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--header);
+    width: 100%;
+    min-height: 6.5rem;
+    border-top: solid var(--border) 0.1rem;
+    padding: 1rem;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 5rem;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+footer li{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul img{
+    width: 2rem;
+}
+
+footer a{
+    padding: 0.5rem 0.8rem;
+    border-radius: 3rem;
+}
+
+footer a:hover{
+    background-color: var(--primary);
+
+}
+
+#email{
+    font-size: 1rem;
+}
+
+footer p{
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
 @media (min-width: 748px){
     header{
         position: block;
@@ -218,7 +272,8 @@ section > img{
     
     #menu-list a{
         padding: 0.5rem 0.8rem;
-        border: solid black 0.1rem;
+        border-bottom: solid black 0.1rem;
+        border-left: solid black 0.1rem;
         border-radius: 1rem;
     }
     
