@@ -172,10 +172,15 @@ section > img{
     padding: 0.5rem 1rem;
     background-color: var(--border);
     border-radius: 5px;
+<<<<<<< HEAD
     border: none;
     color: var(--primary);
     align-self: flex-end;
     box-shadow: none;
+=======
+    color: var(--primary);
+    align-self: flex-end;
+>>>>>>> e4cebf7b7607569deecd3283c435b8ed6896ee52
 }
 
 .box-text button:hover{
