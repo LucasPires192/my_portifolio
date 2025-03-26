@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    /* --text: #080708;
-    --background: #2A2C2E;
-    --primary: #27292B;
-    --header: rgb(172, 153, 155, 0.9);
-    --border: #cccccc; */
-
     --text: #fdfdfd;
     --background: #092c50;
     --primary: #092847;
@@ -168,25 +162,29 @@ section > img{
     align-items: center;
 }
 
+#contas{
+    text-decoration: underline;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+#contas:hover{
+    background-color: var(--primary);
+    color: var(--border);
+}
+
 .box-text button{
     padding: 0.5rem 1rem;
     background-color: var(--border);
     border-radius: 5px;
-<<<<<<< HEAD
-    border: none;
     color: var(--primary);
     align-self: flex-end;
-    box-shadow: none;
-=======
-    color: var(--primary);
-    align-self: flex-end;
->>>>>>> e4cebf7b7607569deecd3283c435b8ed6896ee52
 }
 
 .box-text button:hover{
     background-color: var(--primary);
-    cursor: pointer;
     color: var(--border);
+    cursor: pointer;
 }
 
 .grid-skills{
