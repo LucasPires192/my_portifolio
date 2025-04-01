@@ -1,4 +1,5 @@
 const buttonMenu = document.getElementById('button-menu');
+const anoAtual = new Date().getFullYear();
 
 function toggleMenu(){
     const nav = document.getElementById('menu');
@@ -9,5 +10,4 @@ if(buttonMenu){
     buttonMenu.addEventListener('click', toggleMenu);
 }
 
-
-
+document.getElementById('ano-copiright').textContent = anoAtual;
